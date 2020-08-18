@@ -8,7 +8,7 @@ Required Packages :
   
 Install this packages with following code:
 
-  1.pip install cfscrape
+  1.pip install cfscrape  
   2.pip install bs4
   3.pip install pillow
   
