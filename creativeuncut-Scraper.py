@@ -40,13 +40,14 @@ with scraper1.get("https://www.creativeuncut.com/game-art-galleries.html") as ma
     sys.exit(0)
 
 all_posts = pagesoup1.find_all('div',attrs={'class':'ag'})
-no_of_posts = len(all_posts) - 2
+all_posts = all_posts[2:]
+no_of_posts = len(all_posts)
 print('Number Of Posts : ',no_of_posts)
 
 url_title = []
 all_post_urls_with_title = []
 t_counter1 = 0
-for t_count in range(2,no_of_posts):
+for t_count in range(no_of_posts):
   t_counter1 += 1
   url = domain_name + all_posts[t_count].a['href']
   title = all_posts[t_count].text
