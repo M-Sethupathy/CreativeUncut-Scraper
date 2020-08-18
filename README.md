@@ -14,7 +14,7 @@ Install this packages with following code:
   
     2.pip install bs4
   
-   3.pip install pillow
+    3.pip install pillow
   
 To Start Scraping run "python Creativeuncut-Scraper.py".
 
