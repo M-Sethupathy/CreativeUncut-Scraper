@@ -5,7 +5,7 @@ So i made a scraper that will Download every images in this site with details in
 
 Required Packages :
 
-    1.cfscrape
+    1.requests
   
     2.bs4
   
@@ -13,7 +13,7 @@ Required Packages :
   
 Install this packages with following code:
 
-    1.pip install cfscrape  
+    1.pip install requests  
   
     2.pip install bs4
   
