@@ -3,11 +3,11 @@ I used to visit this site when i was kid.It helps me with drawing.
 
 So i made a scraper that will Download every images in this site with details in every posts.
 
-##Requirement:
+## Requirement:
 
         Google Drive with atleast 6GB Free Space
 
-##Usage:
+## Usage:
 
          1.Open "Creativeuncut.ipynb" in google colab.
          2.Press "Ctrl+F9".
@@ -23,7 +23,7 @@ So i made a scraper that will Download every images in this site with details in
         
 
 
-##File Description:
+## File Description:
 
     File name is in format -> Today_Time - Creativeuncut (Number of VideoGames) (Number of Images) (Time took by this project).7z
     
